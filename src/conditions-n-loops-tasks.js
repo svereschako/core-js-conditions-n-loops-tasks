@@ -445,8 +445,7 @@ function rotateMatrix(matrix) {
  *  [2, 9, 5, 9]    => [2, 5, 9, 9]
  *  [-2, 9, 5, -3]  => [-3, -2, 5, 9]
  */
-function sortByAsc(arr) {
-  throw new Error('Not implemented');
+function sortByAsc(arr) {  
   if (arr.length <= 1) {
     return arr;
   }
@@ -513,8 +512,7 @@ function sortByAsc(arr) {
  *  '012345', 3 => '024135' => '043215' => '031425'
  *  'qwerty', 3 => 'qetwry' => 'qtrewy' => 'qrwtey'
  */
-function shuffleChar(str, iterations) {
-  throw new Error('Not implemented');
+function shuffleChar(str, iterations) {  
   const { length } = str.length;
 
   if (length === 0 || iterations < 1) {
